@@ -987,8 +987,8 @@ footer {
 
 .sunbutton {
     display: inline-block;
-    width: 90px;
-    height: 35px;
+    width: 80px;
+    height: 25px;
     background-color: #fff;
     border-radius: 30px;
     position: relative;
@@ -997,8 +997,8 @@ footer {
 
 .sunbutton::after {
     content: url('./assets/sun-line.svg');
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     background-color: #f06449;
     border: 2px solid #fff;
     border-radius: 50%;
