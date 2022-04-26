@@ -268,19 +268,21 @@ color: white;
 
 .scroll__icon:after {
     content: "";
-    width: 6px;
+    width:10px;
     height: 10px;
     background-color: #242424;
-    border-radius: 2px;
-    animation: scroll 1000ms infinite alternate-reverse;
+    border-radius: 90px;
+    animation: scroll 1s infinite alternate;
 }
 
 @keyframes scroll {
     0% {
-        transform: translateY(3px);
+        opacity: 0;
+        transform: translateY(12px);
     }
     100% {
-        transform: translateY(-3px);
+        opacity: 1;
+        transform: translateY(-12px);
     }
 }
 
