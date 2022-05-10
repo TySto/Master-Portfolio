@@ -535,6 +535,10 @@ nav {
     width: 100%;
 }
 
+.tesla__img {
+    height: 100%;
+}
+
 .project {
     display: flex;
     justify-content: center;
