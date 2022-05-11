@@ -578,6 +578,11 @@ nav {
     /*max-width: 550px;*/
 }
 
+.tesla__description {
+    align-items: center;
+    padding-left: 10px;
+}
+
 .project__wrapper:hover .project__wrapper--bg {
     opacity: 0.7;
 }
@@ -741,6 +746,18 @@ footer {
 
 .skill__language--imgReact {
     width: 90%;
+}
+
+.firebase__img {
+    width: 70%;
+}
+
+.black {
+    color: black;
+}
+
+.purple {
+    color: purple;
 }
 
 
@@ -924,6 +941,11 @@ footer {
     }
     .button__container {
         justify-content: center;
+    }
+    .technology__buttons {
+        display: flex;
+        flex-direction: column;
+        
     }
 }
 
